@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 1px;
+  flex: 1 1 33%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.mole {
+  background: url('mole.jpg');
+  background-size: cover;
+}
